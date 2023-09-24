@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The delivery service for your favourite restaurant</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: "Open Sans" Arial,sans-serif;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #fff;
+        }
+
+        .login-box {
+            background: #fff;
+            padding: 30px 120px;
+            width: 550px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            border-radius: 10px;
+            border: 1px solid rgb(224, 210, 210);
+            
+        }
+
+        .login-box h1,
+        p {
+            margin-bottom: 10px;
+            text-align: left;
+            
+        }
+
+        .login-box button img {
+            width: 18px;
+            margin-right: 10px;
+        }
+
+        .login-box button {
+            width: 100%;
+            padding: 10px 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 20px 0;
+            border-radius: 5px;
+            background: transparent;
+            border: 1px solid #1b1a1a;
+            font-weight: 500;
+            cursor: pointer;
+            font-size: 15px;
+        }
+
+        
+
+        .login-box span{
+            
+            display: block;
+            width: 40px;
+            margin: auto;
+            background: #fff;
+            font-size: 14px;
+            margin: -16px;
+
+        }
+        .login-box form button{
+            background:#E21B70;
+            color: #fff;
+            border: 0;
+            margin-bottom: 15px;
+            font-size: 15px;
+        }
+        .btn{
+            background: #fff;
+            color:#E21B70;
+            border-color: rgb(187, 17, 73);
+        }
+      
+    </style>
+</head>
+
+<body>
+    <div class="login-box">
+        <h1>Welcome!</h1>
+        <p>Log in or Sign up to continue</p>
+        <button style="background-color: blue; color: #fff;"><img src="./facebook.png">Continue with facebook</button>
+        <button><img src="./google.png">Continue with google</button>
+        <button style="background-color: black; color: #fff;"><img src="./apple.jpg1.png">Continue with apple</button>
+        
+        <button style="border: none; height: 10px;">or</button>
+        <form>
+            <button style="height:50px;">Log in</button>
+        </form>
+        <button class="btn" style="border-color: #E21B70;">Sign Up
+        </button>
+        <p>By signing up, you agree to our Terms and Conditions and Privacy Policy.</p>
+    </div>
+</body>
+
+</html>
